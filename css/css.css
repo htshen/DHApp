@@ -1,0 +1,114 @@
+﻿@charset "utf-8";
+body { text-align:left;font-size:12px; font-family:"宋体",Arial，Verdana;color:#3E3E3E; margin:0 auto;padding:0;}
+div,form,img,ul,ol,li,dl,dt,dd,td,span,a,th,tbody,h1,h2,h3,h4,h5,h6 { font-size:12px;font-family:"宋体",Arial，Verdana;margin:0; padding:0; border:0;text-decoration:none; }
+input,select,textarea{ font-size:12px;font-family:"宋体",Arial; }
+ul,ul li{ list-style:none;list-style-type:none; }
+a{ color:#9e9e9e; font-size:12px;}
+
+
+/****************
+* @description : 正文页
+* @author   : 
+* @date     : 
+****************/
+/*
+* 首页框架
+*/
+.box_dhsoftcss{ width:100%; overflow:hidden; margin-bottom:10px; margin-top: 10px;}
+.top_box{ width:100%; position:relative; height:42px;}
+.nav_top{ float:left; display: block; width:100%; height:40px; line-height:40px; box-shadow:0 1px solid #2f8ccf inset; border-bottom:2px solid #ccc; text-align:center;}
+.nav_top li{ width:25%; float:left; font-size:14px; border-bottom:1px solid #ccc;}
+.nav_top li.on{ color:#2f8ccf;}
+.nav_mid{ width:400%; height:190px; padding-top:10px; float:left;}
+
+.box01{ width:25%; text-align:left; height:190px; float:left; line-height:90px; font-size:14px; text-align:center;}
+    .box01 .aboutcss {
+        line-height: 16px;
+        text-align: left;
+        margin: 0 10px 10px 10px;
+    }
+.line{ width:25%; height:2px; background:#2f8ccf; position:absolute; left:0; top:40px; display:block;}
+.line::before{ display:block; width:0; height:0; position:absolute; left:50%; margin-left:-6px;border:6px solid #2f8ccf; border-color:transparent transparent #2f8ccf transparent;
+bottom:2px; display:block; content:'';}
+
+.newlist{ width:100%; float:left; margin-bottom:10px;}
+.newlist li{ height:36px; line-height:36px; position:relative; background:#f8f8f8; border-bottom:1px solid #e8e8e9;border-top:1px solid #fff;}
+.newlist li:nth-child(1){ border-top:none;}
+.newlist li a{ float:left;text-align:left; text-indent:7px;}
+.em_arrow{ display:block; width:0; height:0; position:absolute; right:5px; top:10px; border:5px solid #ccc; border-color:transparent transparent transparent #ccc;}
+.btn_href {
+    display: inline-block;
+    font-size: 14px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px #dedede inset,0 1px 1px #fff;
+    background: -webkit-gradient(linear,0 0,0 100%,from(#eee),to(#e4e4e4));
+    width: 100%;
+}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+.swipe{overflow:hidden;height:160px;position:relative;}
+.swipe-wrap{overflow:hidden;position:relative;}
+.swipe-wrap > div{float:left;width:100%;position:relative;}
+.swipe_pic{position:relative;overflow:hidden;width:320px;height:160px}
+.swipe_pic img{width:320px;height:160px}
+.swipe_h3{position:absolute;left:0;bottom:0;padding:0 14px;font-size:14px;font-weight:normal;background:rgba(0,0,0,0.6);height:26px;line-height:26px;color:#fff;width:100%}
+.swipe_num{position:absolute;right:0;bottom:10px;}
+.swipe_num li{float:left;width:4px;height:4px;border:1px solid rgba(0,0,0,0.6);background:#a9a89d;margin:0 5px;overflow:hidden}
+.swipe_num li.active{width:4px;height:4px;border:1px solid #2f8ccf;background:#2f8ccf;box-shadow:0 0 4px #2f8ccf}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+.p_toplink{margin:10px 12px 8px;font-size:14px;text-align:center;text-shadow:1px 1px 0 #fff;display:block}
+.p_toplink span{display:inline-block;background:url(../images/topico.png) no-repeat 0 0;padding-left:22px}
+
+.p_footer {
+    box-shadow: 0px 2px 2px #f5f5f5;
+    clear: both;
+    padding: 10px 0 16px;
+    text-align: center;
+    font-size: 14px;
+    -moz-box-shadow: inset 0px 1px 0px rgb(255,255,255);
+    -webkit-box-shadow: inset 0px 1px 0px rgb(255,255,255);
+    box-shadow: inset 0px 1px 0px rgb(255,255,255);
+}
+.p_foot_v{clear:both;height:24px;line-height:24px}
+.p_foot_v a{margin:0 18px}
+.p_foot_v a.active{color:#2f8ccf}
+.p_foot_t{clear:both;line-height:20px;font-size:10px;color:#9a9a9a}
+.p_foot_t_clock{background-position:0 -130px;display:inline-block;margin-left:5px;padding-left:16px}
+a:hover,a:active,a:focus{color:#2f8ccf;text-decoration:none;}
+a:active{color:#aaa;}
+
+
+.p_header_navlink, .navlink, .p_recommend_tips, .p_newslist_ico_pic, .p_newslist_ico_video, .p_addlist li, .p_search_btn, .p_search_seclet h3 {
+    background: url(../images/ico_bg.png) no-repeat;
+    background-size: 29px auto;
+}
+.p_header,.p_nav,.p_footer, .nav_top{background:url(../images/bg.png) repeat;}
+.p_header{box-shadow:0px 2px 2px #f5f5f5;margin-bottom: 10px;border-bottom:1px solid #d9dadc;}
+.p_header_logowrap{height:50px;padding:0 12px;}
+.p_header_logo{background:url(../images/logo.png) no-repeat;background-size:113px 31px;float:left;height:31px;width:113px;text-indent:-99em;overflow:hidden;margin:10px 0 0 0;vertical-align:0;}
+.p_header_nav{float:right;font-size:10px;padding-top:8px;display:inline;width:155px}
+.p_header_nav a{color:#747f85;display:block}
+.p_header_navlink{float:left;padding:0 12px;background-position:20px -50px;text-align:center;color:#747f85;position:relative}
+.p_header_navlink_wbnum{display:none;position:absolute;left:0;top:-4px;background:#fb8700;color:#fff;border:1px solid #fff;-webkit-border-radius:5px;border-radius:5px;height:16px;padding:0 2px;line-height:16px;min-width:14px;text-align:center}
+
+.navlink{display:block;width:25px;height:23px;line-height:23px;overflow:hidden;text-indent:-99em;}
+.navlink.wb{background-position:0 0}
+.navlink.app{background-position:0 -23px}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+.p_nav{clear:both;overflow:hidden;*zoom:1;border-top:1px solid #d9dadc;border-bottom:2px solid #fb8700;padding-top:10px;text-align:center;-moz-box-shadow:inset 0px 1px 0px rgb(255,255,255);-webkit-box-shadow:inset 0px 1px 0px rgb(255,255,255);box-shadow:inset 0px 1px 0px rgb(255,255,255);}
+.p_nav li{display:inline-block;line-height:16px;margin-bottom:10px;width:16%}
+.p_nav li a{display:inline-block;}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+.p_nav_footer{border-bottom:1px solid #d9dadc;border-top:2px solid #ccc;}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+.p_piclistbox{clear:both;padding:0 6px;overflow:hidden;*zoom:1;margin:0 auto;width:308px;height:120px}
+.p_piclistbox li{float:left;margin:0 6px;width:142px;height:120px;display:inline;position:relative;overflow:hidden;font-size:14px;background:#efefef}
+.p_piclistbox li img{width:142px;height:120px;}
+.p_piclistbox_h3{position:absolute;left:0;bottom:0;font-size:14px;font-weight:normal;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;padding:0 10px;text-align:center;background:rgba(0,0,0,0.6);height:26px;line-height:26px;color:#fff;width:122px;-moz-box-shadow:inset 0px 1px 0px rgba(255,255,255,.4);-webkit-box-shadow:inset 0px 1px 0px rgba(255,255,255,.4);box-shadow:inset 0px 1px 0px rgba(255,255,255,.4);}
+
+
